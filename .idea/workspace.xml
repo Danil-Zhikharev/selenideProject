@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdc60b90-1d55-4ea2-bd4a-b873d3708420" name="Changes" comment="Commit_25.12_19:59">
-      <change beforePath="$PROJECT_DIR$/.appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.appveyor.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cdc60b90-1d55-4ea2-bd4a-b873d3708420" name="Changes" comment="Commit_25.12_20:08">
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671980469364</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit_25.12_20:08">
+      <created>1671980918201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671980918201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +164,7 @@
     <MESSAGE value="Commit_25.12_16:53" />
     <MESSAGE value="Commit_25.12_19:58" />
     <MESSAGE value="Commit_25.12_19:59" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit_25.12_19:59" />
+    <MESSAGE value="Commit_25.12_20:08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_25.12_20:08" />
   </component>
 </project>
