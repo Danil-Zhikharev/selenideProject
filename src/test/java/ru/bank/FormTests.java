@@ -16,7 +16,7 @@ public class FormTests {
 
   @BeforeEach
   void settings() {
-//    Configuration.headless = true;
+    Configuration.headless = true;
     Configuration.baseUrl = "http://localhost:9999";
     open(Configuration.baseUrl);
   }
