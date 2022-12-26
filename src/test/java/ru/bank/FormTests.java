@@ -3,6 +3,9 @@ package ru.bank;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -17,6 +20,11 @@ public class FormTests {
   @BeforeEach
   void settings() {
     Configuration.headless = true;
+    ChromeOptions options = new ChromeOptions();
+    options.addArguments("--disable-dev-shm-usage");
+    options.addArguments("--no-sandbox");
+    options.addArguments("--headless");
+    ChromeDriver driver = new ChromeDriver(options);
     Configuration.baseUrl = "http://localhost:9999";
     open(Configuration.baseUrl);
   }
