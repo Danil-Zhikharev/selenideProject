@@ -1,8 +1,12 @@
 package ru.bank;
 
 import com.codeborne.selenide.Configuration;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
@@ -15,13 +19,21 @@ import static com.codeborne.selenide.Selenide.*;
 public class FormTests {
 
   String date = LocalDate.now().plusDays(3).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+  WebDriver driver;
+
+  @BeforeAll
+  static void setUpAll() {
+    WebDriverManager.chromedriver().setup();
+  }
 
   @BeforeEach
-  void settings() {
+  public void settings () {
     Configuration.headless = true;
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--disable-dev-shm-usage");
     options.addArguments("--no-sandbox");
+    options.addArguments("--headless");
+    driver = new ChromeDriver(options);
     Configuration.baseUrl = "http://localhost:9999";
     open(Configuration.baseUrl);
   }
