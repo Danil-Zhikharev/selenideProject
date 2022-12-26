@@ -19,7 +19,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class FormTests {
 
   String date = LocalDate.now().plusDays(3).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
-  WebDriver driver;
+
 
   @BeforeAll
   static void setUpAll() {
@@ -29,11 +29,6 @@ public class FormTests {
   @BeforeEach
   public void settings () {
     Configuration.headless = true;
-    ChromeOptions options = new ChromeOptions();
-    options.addArguments("--disable-dev-shm-usage");
-    options.addArguments("--no-sandbox");
-    options.addArguments("--headless");
-    driver = new ChromeDriver(options);
     Configuration.baseUrl = "http://localhost:9999";
     open(Configuration.baseUrl);
   }
