@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdc60b90-1d55-4ea2-bd4a-b873d3708420" name="Changes" comment="Commit_26.12_21:04">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cdc60b90-1d55-4ea2-bd4a-b873d3708420" name="Changes" comment="Commit_26.12_21:10">
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672070683981</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Commit_26.12_21:10">
+      <created>1672071050290</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672071050290</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +245,7 @@
     <MESSAGE value="Commit_26.12_20:55" />
     <MESSAGE value="Commit_26.12_20:59" />
     <MESSAGE value="Commit_26.12_21:04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit_26.12_21:04" />
+    <MESSAGE value="Commit_26.12_21:10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_26.12_21:10" />
   </component>
 </project>
