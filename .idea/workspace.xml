@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdc60b90-1d55-4ea2-bd4a-b873d3708420" name="Changes" comment="Commit_26.12_21:38">
+    <list default="true" id="cdc60b90-1d55-4ea2-bd4a-b873d3708420" name="Changes" comment="Commit_26.12_21:51">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/bank/FormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/bank/FormTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +47,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_directory_selection&quot;: &quot;C:/Users/User/IdeaProjects/selenideProject/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/seleniumProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_directory_selection": "C:/Users/User/IdeaProjects/selenideProject/src/test/java",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/newUITests",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.bank" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\selenideProject\Artifacts" />
     </key>
@@ -64,7 +67,7 @@
       <command value="gradle clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FormTests (1)">
+  <component name="RunManager" selected="Gradle.FormTests.dateValidations">
     <configuration name="FormTests (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -79,6 +82,52 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ru.bank.FormTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FormTests.cityValidations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.bank.FormTests.cityValidations&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FormTests.dateValidations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.bank.FormTests.dateValidations&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,9 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FormTests.dateValidations" />
+        <item itemvalue="Gradle.FormTests.cityValidations" />
+        <item itemvalue="Gradle.FormTests.happyPath (1)" />
         <item itemvalue="Gradle.FormTests (1)" />
         <item itemvalue="Gradle.selenideProject [clean]" />
-        <item itemvalue="Gradle.FormTests.happyPath (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +326,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672072743572</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Commit_26.12_21:38">
+      <created>1672073333675</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672073333675</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Commit_26.12_21:51">
+      <created>1672073518177</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672073518177</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,6 +371,7 @@
     <MESSAGE value="Commit_26.12_21:18" />
     <MESSAGE value="Commit_26.12_21:32" />
     <MESSAGE value="Commit_26.12_21:38" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit_26.12_21:38" />
+    <MESSAGE value="Commit_26.12_21:51" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_26.12_21:51" />
   </component>
 </project>
