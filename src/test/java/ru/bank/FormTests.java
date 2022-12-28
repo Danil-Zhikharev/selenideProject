@@ -47,11 +47,6 @@ public class FormTests {
     driver = new ChromeDriver(options);
   }
 
-  @AfterAll
-  public void teardown() {
-    driver.quit();
-  }
-
   @Test
   void happyPath() {
     $x("//*[@data-test-id='city']//child::*[contains(@placeholder,'ород')]").setValue("Москва");
