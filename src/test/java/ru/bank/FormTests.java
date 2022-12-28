@@ -48,7 +48,7 @@ public class FormTests {
   }
 
   @AfterAll
-  void teardown() {
+  public void teardown() {
     driver.quit();
   }
 
